@@ -3,6 +3,7 @@
 *.swp
 *.log
 *.aux
+*.xdv
 *.toc
 *.pdf
 *.idx
