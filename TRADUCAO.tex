@@ -1,12 +1,12 @@
 %!TEX root=./LIVRO.tex
 
 %\newcommand{\NL}[1]{}%\marginpar{#1}}
-\marginparsep2mm
+\marginparsep2pt
 
 
-% \renewcommand{\versal}[1]{\normalfont\textsc{\MakeTextLowercase{#1}}}
-\newcommand{\saida}[1]{{\hfill\itshape\versal{\mbox{$[$#1}}}}
-\newcommand{\entrada}[1]{{\noindent {#1}\medskip}}
+\renewcommand{\versal}[1]{{\normalfont\textsc{\MakeTextLowercase{#1}}}}
+\newcommand{\saida}[1]{{\nobreak\hfill\textit{\mbox{$[$#1}}}}
+\newcommand{\entrada}[1]{{\noindent \textit{#1}}\nobreak}
 
 
 \newcommand{\NL}[1]{%
@@ -159,7 +159,7 @@ fizer tudo o que o deus revelar.
 \personagem{Sacerdote}   Não só tua fala é oportuna, como também o presente anúncio destes aqui
 de que Creonte se aproxima.
 
-\personagem{Édipo}  \NL{80} Senhor Apolo, tomara que ele venha com alguma sorte salvadora,
+\personagem{Édipo}   Senhor Apolo,\NL{80} tomara que ele venha com alguma sorte salvadora,
 brilhante como um olhar!
 
 \personagem{Sacerdote}   Mas, a julgar pela aparência, está contente, pois de outro modo não
@@ -168,12 +168,12 @@ viria com a cabeça coroada de loureiro fecundo.
 \personagem{Édipo}   Logo saberemos, já que está na distância certa para nos ouvir. Senhor,
 meu cunhado, filho de Menécio, que palavra do deus vens nos trazer?
 
-\saida{Entra Creonte.}
+\entrada{Entra \versal{Creonte.}}
 
 \personagem{Creonte}   Uma boa, pois afirmo que mesmo as dificuldades, se vierem a ter um fim
 correto, podem ser superadas com todo êxito.
 
-\personagem{Édipo}  \NL{90} Qual é a mensagem? Não estou confiante nem apreensivo com teu
+\personagem{Édipo}   Qual é a mensagem?\NL{90} Não estou confiante nem apreensivo com teu
 presente discurso.
 
 \personagem{Creonte}   Se desejas ouvir, mesmo com estes por perto, ou ainda ir para dentro,
@@ -371,7 +371,7 @@ contra o deus entre os deuses desonrado.\footnote{O deus entre os deuses desonra
 
 \section{Primeiro episódio}
 
-\saida{Édipo entra.}
+\entrada{\versal{Édipo} entra.}
 
 \personagem{Édipo}   Pedes e, quanto ao que pedes, se quiseres ouvir minhas palavras,
 aceitá-las e auxiliar no combate ao flagelo, poderás receber proteção e
@@ -765,7 +765,8 @@ ele jamais trará sobre si a pecha da maldade.
 
 \section{Segundo episódio}
 
-\saida{Entra Creonte.}
+\entrada{Entra \versal{Creonte.}}
+
 
 \personagem{Creonte}   Homens da cidade, ciente de que o rei Édipo me acusa com palavras
 terríveis, aqui chego, incapaz de tolerá-las. Se nas circunstâncias
@@ -945,7 +946,7 @@ executados, e os meus, perdidos.
 momento que vos é oportuno. Em companhia dela deveis bem dispor a
 discórdia que ora se apresenta.
 
-\saida{Entra Jocasta.}
+\entrada{Entra \versal{Jocasta.}}
 
 \personagem{Jocasta}   Infelizes! Por que travais esta insensata guerra doméstica de palavras?
 Não vos envergonhais de resolver males particulares enquanto a cidade
@@ -969,7 +970,7 @@ juramento aos deuses, depois a mim e a estes que estão ao teu lado.
 
 
 \personagem{Coro} 
-\saida{Estr.}
+\entrada{Estr.}
 
 
 \settowidth{\versewidth}{Eu suplico, senhor, consente nissox}
@@ -984,7 +985,7 @@ com tua vontade e pensamento.\NL{650}
 
 \personagem{Coro} 
 
-\settowidth{\versewidth}{brilhante? Tenso, agito-me com medo em meu trêmulo}
+\settowidth{\versewidth}{mas agora é grande em sua jura. Respeita-o!x}
 %xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 \begin{verse}[\versewidth]
 Ele antes não era néscio,\\
@@ -1000,7 +1001,7 @@ mas agora é grande em sua jura. Respeita-o!
 
 \personagem{Coro} 
 
-\settowidth{\versewidth}{brilhante? Tenso, agito-me com medo em meu trêmulo}
+\settowidth{\versewidth}{Que jamais deves atingir com obscura acusação,X}
 %xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 \begin{verse}[\versewidth]
 Que jamais deves atingir com obscura acusação,\\
