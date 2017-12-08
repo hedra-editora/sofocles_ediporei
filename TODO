@@ -1,0 +1,7 @@
+PENDÊNCIAS:
+
+MAIS IMPORTANTE: Atentar para os versos que estão com comando ``\settowidth{\versewidth}''. Esses versos estão ficando fora do livro quando o PDF é gerado.
+
+Atentar para a última observação feita por Márcio no arquivo que ele nos enviou, acerca das entradas e saídas de cena. Já ajustei o problema na pg. 63, que era o mais grave e urgente (uma entrada diagramada como saída). Mas observe que Márcio ainda se incomoda com outras coisas. Com a indicação de permanência, por exemplo. Eu acho que dá pra manter como está, mas a palavra final é sua, Jorge!
+
+Na linha 309 do APENDICE, acrescentei um negrito que não esava na revisão, mas que acredio que corresponda com os originais. Veja se cabe!
